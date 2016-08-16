@@ -1,0 +1,27 @@
+{"properties": [
+  {
+    "name": "com.target.casestudy.mongo.db.name",
+    "type": "java.lang.String",
+    "description": "NoSql (mongoDB) database name"
+  },
+  {
+    "name": "com.target.casestudy.prod.desc.sufx",
+    "type": "java.lang.String",
+    "description": "external api to fetch description - Prefix"
+  },
+  {
+    "name": "com.target.casestudy.prod.desc.prfx",
+    "type": "java.lang.String",
+    "description": "external api to fetch description - suffix"
+  },
+  {
+    "name": "com.target.casestudy.mongo.db.connect.timeout",
+    "type": "java.lang.Integer",
+    "description": "timeout to mongoDb"
+  },
+  {
+    "name": "com.target.casestudy.mongo.db.host",
+    "type": "java.lang.String",
+    "description": "mongDB host"
+  }
+]}
