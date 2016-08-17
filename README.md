@@ -17,12 +17,12 @@
 1. `git clone https://github.com/jyothri/myRetailProducts.git`
 2. `cd myRetailProducts`
 3. To compile & run tests:  `mvn clean compile test`
-4. To start the application and be ready for requests: `mvnspring-boot:run`
+4. To start the application and be ready for requests: `mvn spring-boot:run`
 
-## To run analysis for code coverage
+### To run analysis for code coverage
 mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent test -Dmaven.test.failure.ignore=true <br />
 
-This is an attempt to solve the following case study - 
+##This is an attempt to solve the following case study - 
 
 Build an application that performs the following actions:
 
