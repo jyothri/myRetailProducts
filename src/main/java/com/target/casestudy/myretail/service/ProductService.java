@@ -37,7 +37,7 @@ public class ProductService {
 	@Autowired
 	private MongoOperations mongoOperations;
 
-	public Product getProductById(int id) throws Exception{
+	public Product getProductById(int id) throws MyRetailException{
 		log.info("Processing id "+id);
 		Product product = new Product();
 		String description = getDesc(getApiUrl(id));
