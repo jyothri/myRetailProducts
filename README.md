@@ -39,3 +39,8 @@ https://api.target.com/products/v3/13860428?fields=descriptions&id_type=TCIN&key
 
 4. BONUS: Accepts an HTTP PUT request at the same path (/products/{id}), containing a JSON request body similar to the GET response, and updates the product’s price in the data store.
 
+##to make it production ready :-
+
+1. Resilience - retry mechanism, timeout
+2. Performance - cache the results with cache invalidation
+3. Security - authentication and authoraization
